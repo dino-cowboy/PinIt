@@ -1,0 +1,98 @@
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1{
+  font-family: 'Dela Gothic One', cursive;
+}
+
+.pin{
+  color: #85A947;
+}
+
+.it{
+  color: #2D9596;
+}
+
+.year{
+  font-family: 'Dela Gothic One', cursive;
+  font-size: .95em;
+}
+
+
+.searchCard{
+  width: 50% !important;
+  margin: 0 auto;
+}
+
+.btn-secondary{
+  background-color: #2D9596 !important; 
+  border-color: #2D9596 !important;
+}
+
+input::placeholder{
+  color: #85A947 !important;
+}
+
+.explore{
+  border-top: #85A947 3px solid;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.frontText{
+  font-weight: 500;
+  color: #2D9596;
+}
+
+.card-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  border: none !important;
+}
+
+.card{
+  position: relative;
+  padding: 0 !important;
+  width: 300px !important;
+  height: 400px !important;
+  margin: 0 auto !important;
+  border: none !important;
+}
+
+.card:hover{
+  box-shadow: 0 0 10px 5px #2D9596;
+  cursor: pointer;
+}
+
+.card-img-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h5{
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 1.5em;
+}
+
+
+.volunteerBtn{
+  position:fixed;
+}
+.searchBar{
+  min-width: 450px !important;
+  margin: 0 auto;
+}
