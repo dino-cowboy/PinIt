@@ -4,7 +4,6 @@
   font-style: normal;
 }
 
-
 h1{
   font-family: 'Dela Gothic One', cursive;
 }
@@ -20,12 +19,7 @@ h1{
 .year{
   font-family: 'Dela Gothic One', cursive;
   font-size: .95em;
-}
-
-
-.searchCard{
-  width: 50% !important;
-  margin: 0 auto;
+  margin-right: 5px;
 }
 
 .btn-secondary{
@@ -58,8 +52,8 @@ input::placeholder{
 .card{
   position: relative;
   padding: 0 !important;
-  width: 300px !important;
-  height: 400px !important;
+  width: 20rem !important;
+  height: 25rem !important;
   margin: 0 auto !important;
   border: none !important;
 }
@@ -92,7 +86,17 @@ h5{
 .volunteerBtn{
   position:fixed;
 }
+
 .searchBar{
-  min-width: 450px !important;
+  max-width: 50rem;
+  min-width: 24rem;
   margin: 0 auto;
+}
+
+.navbarHeader, .frontText, .frontCards{
+  min-width: 25rem;
+}
+
+.footer{
+  min-width: 10rem;
 }
