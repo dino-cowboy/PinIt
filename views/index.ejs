@@ -1,6 +1,5 @@
 <%-include('partials/header.ejs') %>
 
-
 <section class="searchBar justify-content-center" >
     <div class="py-5 justify-content-center searchBar">
         <form class="searchCard p-2 my-4 justify-content-center text-align-center searchBar" >
@@ -17,10 +16,10 @@
         <h3 class="explore p-3">Explore different types of volunteering and find the perfect one for you</h3>
 </section>
 
-<section class="frontCards py-5 ">
-    <div class="container py-1">
-        <div class="row">
-            <div class="card my-5">
+<section class="frontCards">
+    <div class="container">
+        <div class="row mx-1">
+            <div class="card my-4">
                 <img src="assets/stethoscope.jpg" class="card-img" alt="stethoscope">
                 <div class="card-img-overlay">
                   <h5 class="card-title py-2">Medical</h5>
@@ -30,7 +29,7 @@
                   </svg>
                 </div>
               </div>
-              <div class="card my-5">
+              <div class="card my-4">
                 <img src="assets/humanitarian.jpg" class="card-img" alt="stethoscope">
                 <div class="card-img-overlay">
                     <h5 class="card-title py-2">Humanitarian</h5>
@@ -38,10 +37,9 @@
                         <path d="M6 6.207v9.043a.75.75 0 0 0 1.5 0V10.5a.5.5 0 0 1 1 0v4.75a.75.75 0 0 0 1.5 0v-8.5a.25.25 0 1 1 .5 0v2.5a.75.75 0 0 0 1.5 0V6.5a3 3 0 0 0-3-3H6.236a1 1 0 0 1-.447-.106l-.33-.165A.83.83 0 0 1 5 2.488V.75a.75.75 0 0 0-1.5 0v2.083c0 .715.404 1.37 1.044 1.689L5.5 5c.32.32.5.754.5 1.207"/>
                         <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
                       </svg>
-
                 </div>
               </div>
-              <div class="card my-5">
+              <div class="card my-4">
                 <img src="assets/turbine.jpg" class="card-img" alt="stethoscope">
                 <div class="card-img-overlay">
                   <h5 class="card-title py-2">Sustainability</h5>
@@ -54,4 +52,12 @@
         </div>
     </div>
 </section>
+
 <%-include('partials/footer.ejs') %>
+
+  <script>
+  
+  const myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
+  myModal.show();
+  
+  </script>
